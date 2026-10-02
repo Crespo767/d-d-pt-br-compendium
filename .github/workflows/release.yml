@@ -21,6 +21,8 @@ jobs:
           mkdir -p package/dnd-compendium-pt-br
           cp -r assets lang packs scripts module.json README.md package/dnd-compendium-pt-br/
           find package/dnd-compendium-pt-br -name "LOCK" -delete || true
+          find package/dnd-compendium-pt-br -name "LOG*" -delete || true
+          find package/dnd-compendium-pt-br -name "*.log" -delete || true
           cd package
           zip -r ../dnd-compendium-pt-br.zip dnd-compendium-pt-br
           cd ..
