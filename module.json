@@ -1,0 +1,154 @@
+{
+  "id": "dnd-compendium-pt-br",
+  "title": "D&D Compêndios PT-BR (Privado)",
+  "description": "Biblioteca privada em português brasileiro construída a partir do mundo Curse of Strahd.",
+  "version": "0.3.0",
+  "coreTranslation": true,
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Heito"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "packs": [
+    {
+      "name": "cenas",
+      "label": "D&D PT-BR | Cenas",
+      "path": "packs/cenas",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "NONE": "NONE",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "atores",
+      "label": "D&D PT-BR | Atores",
+      "path": "packs/atores",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "NONE": "NONE",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": ["character", "npc", "vehicle"]
+        }
+      }
+    },
+    {
+      "name": "itens",
+      "label": "D&D PT-BR | Itens",
+      "path": "packs/itens",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "NONE": "NONE",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": [
+            "background", "class", "consumable", "container", "equipment", "feat", "loot",
+            "race", "spell", "subclass", "tool", "weapon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "personagens-e-monstros",
+      "label": "D&D PT-BR | Personagens e Monstros",
+      "path": "packs/personagens-e-monstros",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "NONE": "NONE",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {
+        "dnd5e": {
+          "sorting": "m",
+          "types": ["background", "class", "feat", "race", "subclass", "weapon"]
+        }
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "D&D PT-BR | Tabelas de Rolagem",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "NONE": "NONE",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "D&D PT-BR | Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "NONE": "NONE",
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "NONE",
+        "GAMEMASTER": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "D&D Compêndios PT-BR",
+      "sorting": "a",
+      "packs": ["cenas", "atores", "itens", "personagens-e-monstros", "tabelas", "macros"]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "verified": "5.3.3",
+          "maximum": "5.3.999"
+        }
+      }
+    ]
+  }
+}
