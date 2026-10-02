@@ -1,0 +1,56 @@
+name: Release Module
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Clean Package
+        run: |
+          mkdir -p package/dnd-compendium-pt-br
+          cp -r assets lang packs scripts module.json README.md package/dnd-compendium-pt-br/
+          find package/dnd-compendium-pt-br -name "LOCK" -delete || true
+          cd package
+          zip -r ../dnd-compendium-pt-br.zip dnd-compendium-pt-br
+          cd ..
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }} - Compêndios D&D 5e PT-BR (PHB 2024)
+          body: |
+            ## 🐉 D&D 5e Compêndios PT-BR (PHB 2024) - ${{ github.ref_name }}
+
+            Biblioteca em Português Brasileiro (PT-BR) com tradução alinhada ao **Livro do Jogador 2024** oficial da Wizards of the Coast.
+
+            ### ⚡ Instalação Direta no Foundry VTT (Manifest URL)
+            Cole o link abaixo em **Add-on Modules** > **Install Module** > **Manifest URL**:
+            ```text
+            https://github.com/Crespo767/d-d-pt-br-compendium/releases/latest/download/module.json
+            ```
+
+            ### 📦 Conteúdo desta Versão
+            - **12 Classes do PHB 2024**: Todas com identificadores de escala (`@scale.*`) blindados.
+            - **Nomenclatura Oficial**: *Golpe Brutal*, *Recuperar Fôlego*, *Golpe Divino*, *Ataque Furtivo*, *Surto de Ação*, etc.
+            - **Atores**: 48 fichas pré-geradas para jogadores (níveis 1 a 17) compatíveis.
+            - **Compêndios Integrados**: Itens, Equipamentos, Cenas, Tabelas, Macros e Localização (`pt-BR.json`).
+
+            ### 📦 Download Manual
+            - [dnd-compendium-pt-br.zip](https://github.com/Crespo767/d-d-pt-br-compendium/releases/download/${{ github.ref_name }}/dnd-compendium-pt-br.zip)
+          files: |
+            dnd-compendium-pt-br.zip
+            module.json
+          draft: false
+          prerelease: false
