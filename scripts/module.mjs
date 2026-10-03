@@ -43,8 +43,12 @@ export const PTBR_WEAPON_IDS = {
 };
 
 function applyWeaponMappings() {
-  if (CONFIG?.DND5E?.weaponIds) {
-    Object.assign(CONFIG.DND5E.weaponIds, PTBR_WEAPON_IDS);
+  try {
+    if (CONFIG?.DND5E?.weaponIds) {
+      Object.assign(CONFIG.DND5E.weaponIds, PTBR_WEAPON_IDS);
+    }
+  } catch (err) {
+    console.warn("dnd-compendium-pt-br | Erro ao aplicar mapeamento de armas:", err);
   }
 }
 
@@ -59,22 +63,41 @@ Hooks.once("setup", () => {
 Hooks.once("ready", async () => {
   applyWeaponMappings();
 
-  if (!game.user.isGM) return;
+  if (!game.user?.isGM) return;
 
-  for (const name of PACKS) {
-    const pack = game.packs.get(`${MODULE_ID}.${name}`);
-    if (pack?.locked) await pack.configure({ locked: false });
-  }
-
-  const sourceConfiguration = { ...game.settings.get("dnd5e", "packSourceConfiguration") };
-  let changed = false;
-  for (const name of ["atores", "itens", "personagens-e-monstros"]) {
-    const collection = `${MODULE_ID}.${name}`;
-    if (sourceConfiguration[collection] === false) {
-      sourceConfiguration[collection] = true;
-      changed = true;
+  try {
+    for (const name of PACKS) {
+      const pack = game.packs.get(`${MODULE_ID}.${name}`);
+      if (pack?.locked) {
+        await pack.configure({ locked: false }).catch(err => {
+          console.warn(`dnd-compendium-pt-br | Não foi possível desbloquear ${name}:`, err);
+        });
+      }
     }
+  } catch (err) {
+    console.warn("dnd-compendium-pt-br | Erro na configuração de pacotes:", err);
   }
-  if (changed) await game.settings.set("dnd5e", "packSourceConfiguration", sourceConfiguration);
+
+  try {
+    const setting = game.settings.get("dnd5e", "packSourceConfiguration");
+    if (setting) {
+      const sourceConfiguration = { ...setting };
+      let changed = false;
+      for (const name of ["atores", "itens", "personagens-e-monstros"]) {
+        const collection = `${MODULE_ID}.${name}`;
+        if (sourceConfiguration[collection] === false) {
+          sourceConfiguration[collection] = true;
+          changed = true;
+        }
+      }
+      if (changed) {
+        await game.settings.set("dnd5e", "packSourceConfiguration", sourceConfiguration).catch(err => {
+          console.warn("dnd-compendium-pt-br | Erro ao salvar packSourceConfiguration:", err);
+        });
+      }
+    }
+  } catch (err) {
+    console.warn("dnd-compendium-pt-br | Erro ao acessar packSourceConfiguration:", err);
+  }
 });
 
