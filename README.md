@@ -76,6 +76,6 @@ O pacote inclui compêndios categorizados e organizados na pasta **D&D Compêndi
 
 ## 👤 Autor e Créditos
 
-- **Autor / Mantenedor**: Crespo767 ([@Crespo767](https://github.com/Crespo767))
+- **Autor / Mantenedor**: Heitor ([@Crespo767](https://github.com/Crespo767))
 - **Sistema D&D 5e**: Desenvolvido por Foundry Gaming LLC.
 - **Regras Originais**: Dungeons & Dragons 5ª Edição (2024), Wizards of the Coast.
