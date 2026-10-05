@@ -1,8 +1,8 @@
 {
   "id": "dnd-compendium-pt-br",
-  "title": "D&D Compêndios PT-BR",
-  "description": "Compêndios completos em português brasileiro para D&D 5e (PHB 2024), contendo classes, características, regras, magias, itens, monstros e tabelas.",
-  "version": "0.4.4",
+  "title": "D&D 5e Compêndios Básicos PT-BR (PHB 2024, MM, DMG)",
+  "description": "Compêndios completos em português brasileiro para o sistema D&D 5e (Livro do Jogador 2024, Livro do Mestre e Manual dos Monstros), contendo classes, características, regras, magias, itens de inventário, armas com maestria, monstros do bestiário, mapas táticos e tabelas de rolagem.",
+  "version": "1.0.0",
   "url": "https://github.com/Crespo767/d-d-pt-br-compendium",
   "manifest": "https://github.com/Crespo767/d-d-pt-br-compendium/releases/latest/download/module.json",
   "download": "https://github.com/Crespo767/d-d-pt-br-compendium/releases/latest/download/dnd-compendium-pt-br.zip",
