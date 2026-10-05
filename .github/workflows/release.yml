@@ -31,11 +31,11 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
-          name: ${{ github.ref_name }} - Compêndios D&D 5e PT-BR (PHB 2024)
+          name: ${{ github.ref_name }} - D&D 5e Compêndios Básicos PT-BR (PHB 2024, MM, DMG)
           body: |
-            ## 🐉 D&D 5e Compêndios PT-BR (PHB 2024) - ${{ github.ref_name }}
+            ## 🐉 D&D 5e Compêndios Básicos PT-BR (PHB 2024, MM, DMG) - ${{ github.ref_name }}
 
-            Biblioteca em Português Brasileiro (PT-BR) com tradução alinhada ao **Livro do Jogador 2024** oficial da Wizards of the Coast.
+            Compêndios completos em Português Brasileiro (PT-BR) para o sistema D&D 5e no Foundry VTT, cobrindo as regras oficiais da edição 2024/2025: **Livro do Jogador (PHB 2024)**, **Manual dos Monstros (MM 2025)** e **Livro do Mestre (DMG 2024)**.
 
             ### ⚡ Instalação Direta no Foundry VTT (Manifest URL)
             Cole o link abaixo em **Add-on Modules** > **Install Module** > **Manifest URL**:
@@ -44,10 +44,16 @@ jobs:
             ```
 
             ### 📦 Conteúdo desta Versão
-            - **12 Classes do PHB 2024**: Todas com identificadores de escala (`@scale.*`) blindados.
-            - **Nomenclatura Oficial**: *Golpe Brutal*, *Recuperar Fôlego*, *Golpe Divino*, *Ataque Furtivo*, *Surto de Ação*, etc.
-            - **Atores**: 48 fichas pré-geradas para jogadores (níveis 1 a 17) compatíveis.
-            - **Compêndios Integrados**: Itens, Equipamentos, Cenas, Tabelas, Macros e Localização (`pt-BR.json`).
+            - **Personagens e Monstros (745 itens)**: 12 classes do PHB 2024, subclasses, espécies, antecedentes e características do Manual dos Monstros.
+            - **Atores (608 criaturas e personagens)**: Bestiário do MM 2025 completo por tipo e 48 fichas pré-geradas para jogadores (níveis 1 a 17).
+            - **Itens de Inventário (1.557 itens)**: Armas com maestria (`weaponMastery`), armaduras, equipamentos, magias (truque ao 9º círculo) e itens mágicos do DMG.
+            - **Cenas do Livro do Mestre (33 mapas)**: Mapas táticos e de masmorras do DMG e mapas de campanha de Greyhawk / Flanaess.
+            - **Tabelas de Rolagem (312 tabelas)**: Tabelas do PHB 2024, DMG e MM.
+            - **Macros e Localização**: Automações auxiliares e dicionário `pt-BR.json`.
+
+            ### 🦇 Módulo Complementar de Ravenloft
+            Para a campanha de Baróvia e suplementos de horror, utilize:
+            [Curse of Strahd & Ravenloft | Compêndios PT-BR](https://github.com/Crespo767/curse-of-strahd-pt-br)
 
             ### 📦 Download Manual
             - [dnd-compendium-pt-br.zip](https://github.com/Crespo767/d-d-pt-br-compendium/releases/download/${{ github.ref_name }}/dnd-compendium-pt-br.zip)
