@@ -85,8 +85,15 @@ O pacote inclui compêndios categorizados e organizados na pasta **D&D Compêndi
 
 ---
 
-## 👤 Autor e Créditos
+## ⚖️ Aviso Legal, Direitos Autorais e Créditos
 
-- **Autor / Mantenedor**: Heitor ([@Crespo767](https://github.com/Crespo767))
-- **Sistema D&D 5e**: Desenvolvido por Foundry Gaming LLC.
-- **Regras Oficiais**: Dungeons & Dragons 5ª Edição (2024), Wizards of the Coast.
+Este é um **conteúdo feito por fãs**, sem fins lucrativos, criado de forma voluntária para a comunidade brasileira de jogadores no Foundry VTT.
+
+- **Dungeons & Dragons, D&D 5e, Player's Handbook, Monster Manual, Dungeon Master's Guide**:
+  Todos os direitos de propriedade intelectual, marcas registradas e conteúdo oficial pertencem à **Wizards of the Coast LLC**, uma subsidiária da **Hasbro, Inc.**
+  - *Criadores Originais do Sistema D&D:* Gary Gygax e Dave Arneson.
+  - *Designers Líderes das Regras Oficiais 2024:* Jeremy Crawford, Christopher Perkins e a equipe de design e desenvolvimento de regras de D&D da Wizards of the Coast.
+- **Sistema Foundry VTT D&D 5e**:
+  Desenvolvido e mantido pela equipe da **Foundry Gaming LLC**.
+- **Política de Conteúdo de Fãs**:
+  Este produto foi adaptado e disponibilizado gratuitamente sob os termos da [Política de Conteúdo de Fãs da Wizards of the Coast](https://company.wizards.com/pt-BR/legal/fancontentpolicy). Não é um produto oficial, não possui fins comerciais e não é patrocinado, endossado ou afiliado à Wizards of the Coast ou Hasbro.
