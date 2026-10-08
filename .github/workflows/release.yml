@@ -49,7 +49,7 @@ jobs:
             - **Itens de Inventário (1.557 itens)**: Armas com maestria (`weaponMastery`), armaduras, equipamentos, magias (truque ao 9º círculo) e itens mágicos do DMG.
             - **Cenas do Livro do Mestre (33 mapas)**: Mapas táticos e de masmorras do DMG e mapas de campanha de Greyhawk / Flanaess.
             - **Tabelas de Rolagem (312 tabelas)**: Tabelas do PHB 2024, DMG e MM.
-            - **Macros e Localização**: Automações auxiliares e dicionário `pt-BR.json`.
+            - **Localização**: dicionário `pt-BR.json`.
 
             ### 🦇 Módulo Complementar de Ravenloft
             Para a campanha de Baróvia e suplementos de horror, utilize:

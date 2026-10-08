@@ -61,8 +61,6 @@ O pacote inclui compêndios categorizados e organizados na pasta **D&D Compêndi
   - Mapas táticos de encontros e masmorras do Livro do Mestre: Navio, Mina, Fortaleza, Torre do Mago, Fazenda, Covil do Dragão, Cavernas Vulcânicas, Esconderijo na Masmorra, etc.
 - **Tabelas de Rolagem (312 Tabelas)**:
   - Tabelas do Livro do Jogador 2024, Livro do Mestre (tesouros, itens sencientes, encontros, perigos) e Manual dos Monstros.
-- **Macros**:
-  - Automações auxiliares para mestres e jogadores (criação de tokens e importações).
 - **Localização Completa**:
   - Dicionário integrado com tradução oficial da interface e fichas (`lang/pt-BR.json`).
 

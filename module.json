@@ -138,20 +138,6 @@
         "ASSISTANT": "NONE",
         "GAMEMASTER": "OWNER"
       }
-    },
-    {
-      "name": "macros",
-      "label": "D&D PT-BR | Macros",
-      "path": "packs/macros",
-      "type": "Macro",
-      "system": "dnd5e",
-      "ownership": {
-        "NONE": "NONE",
-        "PLAYER": "NONE",
-        "TRUSTED": "NONE",
-        "ASSISTANT": "NONE",
-        "GAMEMASTER": "OWNER"
-      }
     }
   ],
   "packFolders": [
@@ -163,8 +149,7 @@
         "atores",
         "itens",
         "personagens-e-monstros",
-        "tabelas",
-        "macros"
+        "tabelas"
       ]
     }
   ],

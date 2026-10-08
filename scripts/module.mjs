@@ -1,5 +1,5 @@
 const MODULE_ID = "dnd-compendium-pt-br";
-const PACKS = ["cenas", "atores", "itens", "personagens-e-monstros", "tabelas", "macros"];
+const PACKS = ["cenas", "atores", "itens", "personagens-e-monstros", "tabelas"];
 
 export const PTBR_WEAPON_IDS = {
   battleaxe: "Compendium.dnd-compendium-pt-br.itens.Item.3tuQa9Nnupnz0aMy", // Machado de Batalha
