@@ -28,7 +28,7 @@ export const PTBR_WEAPON_IDS = {
   musket: "Compendium.dnd-compendium-pt-br.itens.Item.Gw66h1AeS6Ak05Rd", // Mosquete
   pike: "Compendium.dnd-compendium-pt-br.itens.Item.SkVclAxOwYvvIFGc", // Lança Longa
   pistol: "Compendium.dnd-compendium-pt-br.itens.Item.A2Z9SiTObgCkfSBn", // Pistola
-  quarterstaff: "Compendium.dnd-compendium-pt-br.itens.Item.ippnrYiLL2YeUKci", // Cajado
+  quarterstaff: "Compendium.dnd-compendium-pt-br.itens.Item.KwVrez2RhMmTPWmb", // Cajado
   rapier: "Compendium.dnd-compendium-pt-br.itens.Item.JNVVGBuOAxudM0Qb", // Rapieira
   scimitar: "Compendium.dnd-compendium-pt-br.itens.Item.EuNf516oSiCJQysR", // Cimitarra
   shortbow: "Compendium.dnd-compendium-pt-br.itens.Item.7o0UXXwiZTVglbWq", // Arco Curto
