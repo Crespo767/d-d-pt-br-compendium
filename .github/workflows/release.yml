@@ -46,7 +46,7 @@ jobs:
             ### 📦 Conteúdo desta Versão
             - **Personagens e Monstros (745 itens)**: 12 classes do PHB 2024, subclasses, espécies, antecedentes e características do Manual dos Monstros.
             - **Atores (608 criaturas e personagens)**: Bestiário do MM 2025 completo por tipo e 48 fichas pré-geradas para jogadores (níveis 1 a 17).
-            - **Itens de Inventário (1.557 itens)**: Armas com maestria (`weaponMastery`), armaduras, equipamentos, magias (truque ao 9º círculo) e itens mágicos do DMG.
+            - **Itens de Inventário (1.524 itens)**: Armas com maestria (`weaponMastery`), armaduras, equipamentos, magias (truque ao 9º círculo) e itens mágicos do DMG.
             - **Cenas do Livro do Mestre (33 mapas)**: Mapas táticos e de masmorras do DMG e mapas de campanha de Greyhawk / Flanaess.
             - **Tabelas de Rolagem (312 tabelas)**: Tabelas do PHB 2024, DMG e MM.
             - **Localização**: dicionário `pt-BR.json`.

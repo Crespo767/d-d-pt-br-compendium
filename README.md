@@ -51,7 +51,7 @@ O pacote inclui compêndios categorizados e organizados na pasta **D&D Compêndi
   - **Personagens pré-gerados** prontos para jogar do nível 1 ao 17 para todas as 12 classes (*Merric, Randal, Riswynn, Perrin, Akra, Aoth, Beiro, Morthos, Quillathe, Sefris, Zanna*).
   - Bestiário completo do **Manual dos Monstros (MM 2025)** e monstros clássicos de D&D 5e (Aberrações, Feras, Constructos, Dragões, Elementais, Feéricos, Gigantes, Humanoides, Ínferos, Limos, Monstruosidades, Mortos-vivos e Plantas).
   - Invocações, conjurações, companheiros animais e montarias sobrenaturais preparadas.
-- **Itens de Inventário (1.557 Itens)**:
+- **Itens de Inventário (1.524 Itens)**:
   - Todas as armas oficiais com propriedades completas de **Maestria em Armas** (*Weapon Mastery*).
   - Armaduras, escudos, ferramentas de artesão e equipamentos de aventura.
   - Todas as magias do Livro do Jogador 2024 (do truque ao 9º círculo).
