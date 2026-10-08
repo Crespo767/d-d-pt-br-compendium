@@ -47,7 +47,7 @@ O pacote inclui compêndios categorizados e organizados na pasta **D&D Compêndi
   - Subclasses oficiais, características de classe e talentos de origem/gerais/combate/dádiva épica.
   - Valores de escala de classe (`@scale.*`) 100% blindados e padronizados para garantir automação contínua na ficha.
   - Espécies (Raças), históricos de personagem (Antecedentes) e características de monstros (ações, traços e ações lendárias do MM).
-- **Atores (608 Criaturas e Personagens)**:
+- **Atores (632 Criaturas e Personagens)**:
   - **Personagens pré-gerados** prontos para jogar do nível 1 ao 17 para todas as 12 classes (*Merric, Randal, Riswynn, Perrin, Akra, Aoth, Beiro, Morthos, Quillathe, Sefris, Zanna*).
   - Bestiário completo do **Manual dos Monstros (MM 2025)** e monstros clássicos de D&D 5e (Aberrações, Feras, Constructos, Dragões, Elementais, Feéricos, Gigantes, Humanoides, Ínferos, Limos, Monstruosidades, Mortos-vivos e Plantas).
   - Invocações, conjurações, companheiros animais e montarias sobrenaturais preparadas.
