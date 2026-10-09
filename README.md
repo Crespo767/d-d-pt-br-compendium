@@ -5,6 +5,8 @@
 [![Release](https://img.shields.io/github/v/release/Crespo767/d-d-pt-br-compendium?color=blue)](https://github.com/Crespo767/d-d-pt-br-compendium/releases/latest)
 [![Idioma](https://img.shields.io/badge/Idioma-Portugu%C3%AAs%20(Brasil)-green.svg)]()
 
+> ✅ **Verificado em 09/10/2026** no Foundry VTT 13.350 com dnd5e 5.3.3: todos os compêndios carregam sem erros e todas as referências (links, magias, invocações, cenas e imagens) resolvem.
+
 Biblioteca completa de compêndios traduzidos e adaptados em **Português Brasileiro (PT-BR)** para o sistema **D&D 5e** no **Foundry VTT**, com alinhamento textual e terminológico estrito aos três livros básicos das regras oficiais: **Livro do Jogador 2024 (PHB 2024)**, **Manual dos Monstros (MM 2024/2025)** e **Livro do Mestre (DMG 2024)**.
 
 Para aventuras e suplementos de Ravenloft, utilize o módulo complementar: **[Curse of Strahd & Ravenloft | Compêndios PT-BR](https://github.com/Crespo767/curse-of-strahd-pt-br)**.
